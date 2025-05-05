@@ -1,0 +1,23 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "main.Main",
+      "projectName": "ExpenseTracker_d07df88"
+    }
+  ]
+}/*{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Launch Swing App",
+        "request": "launch",
+        "mainClass": "main.Main",
+        
+      }
+    ]
+  }
+  */
