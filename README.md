@@ -1,9 +1,9 @@
-Expense Tracker Pro
+**Expense Tracker Pro**
 
-Overview
+**Overview**
 Expense Tracker Pro is a Java Swing application that helps users track their expenses with a clean, modern interface. It provides features for adding, editing, and deleting expenses, as well as visualizing spending patterns through charts and monthly breakdowns.
 
-Features
+**Features**
 - Expense Management: Add, edit, and delete expenses with category, amount, date, and description
 - Visual Analytics: 
   - Pie chart showing expenses by category
@@ -12,16 +12,13 @@ Features
 - Responsive UI: Modern, clean interface with intuitive controls
 - Data Persistence: All expenses are stored in memory while the application runs
 
- Screenshots
-(Include screenshots of your application here if available)
-
- Technologies Used
+ **Technologies Used**
 - Java 8+
 - Java Swing for GUI
 - JFreeChart (jfreechart-1.5.3.jar) for chart visualizations
 - JCommon (jcommon-1.0.23.jar) - dependency for JFreeChart
 
- Installation
+**Installation**
 1. Ensure you have Java 8 or later installed
 2. Clone this repository
 3. Download the required JAR files:
@@ -29,7 +26,7 @@ Features
    - [jcommon-1.0.23.jar](https://www.jfree.org/jcommon/)
 4. Add the JAR files to your project's classpath
 
- Running the Application
+**Running the Application**
 1. Compile all Java files:
    ```
    javac -cp .;jfreechart-1.5.3.jar;jcommon-1.0.23.jar main/Main.java
@@ -60,7 +57,7 @@ Features
    - Use the buttons at the bottom to switch between pie and bar charts
    - Select a month from the dropdown to filter the pie chart data
 
- Project Structure
+**Project Structure**
 ```
 src/
 ├── main/
@@ -75,22 +72,22 @@ src/
     └── ExpenseTrackerController.java - Mediates between view and model
 ```
 
- Dependencies
+ **Dependencies**
 - JFreeChart 1.5.3 - For chart visualizations
 - JCommon 1.0.23 - Required by JFreeChart
 
- License
+ **License**
 This project is open-source and available under the [MIT License](LICENSE).
 
- Future Enhancements
+ **Future Enhancements**
 - Add database persistence
 - Implement user accounts
 - Add export functionality (CSV, PDF)
 - More advanced chart types and filtering options
 
- Contributing
+ **Contributing**
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
- Acknowledgments
+ **Acknowledgments**
 - JFreeChart team for the excellent charting library
 - Java Swing for providing the GUI framework
